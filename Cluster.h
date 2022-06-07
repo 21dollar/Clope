@@ -1,5 +1,5 @@
 #pragma once
-
+adsfadas
 #include <map>
 
 #include "Transaction.h"
@@ -9,11 +9,11 @@ class Cluster
 public:
 	Cluster();
 	~Cluster();
-	//std::set<object_t> D();	// множество уникальных объектов
-	size_t Occ(object_t i);		// количество вхождений (частота) объекта i в кластер C;
-	double S();					// Площадь
-	double W();					// Ширина
-	double H();					// Высота
+	//std::set<object_t> D();	// Г¬Г­Г®Г¦ГҐГ±ГІГўГ® ГіГ­ГЁГЄГ Г«ГјГ­Г»Гµ Г®ГЎГєГҐГЄГІГ®Гў
+	size_t Occ(object_t i);		// ГЄГ®Г«ГЁГ·ГҐГ±ГІГўГ® ГўГµГ®Г¦Г¤ГҐГ­ГЁГ© (Г·Г Г±ГІГ®ГІГ ) Г®ГЎГєГҐГЄГІГ  i Гў ГЄГ«Г Г±ГІГҐГ° C;
+	double S();					// ГЏГ«Г®Г№Г Г¤Гј
+	double W();					// ГГЁГ°ГЁГ­Г 
+	double H();					// Г‚Г»Г±Г®ГІГ 
 	double G(double r);
 	void add(Transaction& t);
 	void remove(Transaction& t);
